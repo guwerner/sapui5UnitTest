@@ -27,7 +27,7 @@ sap.ui.define([
 
 	function multiple7ValueTestCase(assert, val1, fExpectedNumber) {
 		var oAppController = new View1();
-		var fNumber = oAppController.multiple7(val1) 
+		var fNumber = oAppController.multiple7(val1); 
 
 		// Assert
 		assert.strictEqual(fNumber, fExpectedNumber, "Die Nummer ist Korrekt");
@@ -39,7 +39,7 @@ sap.ui.define([
 	
 	function multiple7ValueTestCaseNot(assert, val1, fExpectedNumber) {
 		var oAppController = new View1();
-		var fNumber = oAppController.multiple7(val1) 
+		var fNumber = oAppController.multiple7(val1); 
 
 		// Assert
 		assert.notStrictEqual(fNumber, fExpectedNumber, "Die Nummer ist  inkorrekt");
