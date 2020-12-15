@@ -12,3 +12,8 @@ changes_preview.js
 AppVariant_index.html
 APIExternalProducer.js
 .*/APIExternalProducer.js
+/mta_archives/
+AppVariantPreviewPayload.zip
+mergedManifestDescriptor.json
+preview.json
+cp.project.properties.json
